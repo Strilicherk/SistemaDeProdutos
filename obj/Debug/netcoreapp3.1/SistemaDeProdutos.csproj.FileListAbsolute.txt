@@ -11,3 +11,16 @@ C:\Users\dev\Desktop\SistemaDeProdutos\obj\Debug\netcoreapp3.1\SistemaDeProdutos
 C:\Users\dev\Desktop\SistemaDeProdutos\obj\Debug\netcoreapp3.1\SistemaDeProdutos.dll
 C:\Users\dev\Desktop\SistemaDeProdutos\obj\Debug\netcoreapp3.1\SistemaDeProdutos.pdb
 C:\Users\dev\Desktop\SistemaDeProdutos\obj\Debug\netcoreapp3.1\SistemaDeProdutos.genruntimeconfig.cache
+D:\Escolar\SENAI\GitHub\Backend\SistemaDeProdutos\bin\Debug\netcoreapp3.1\SistemaDeProdutos.exe
+D:\Escolar\SENAI\GitHub\Backend\SistemaDeProdutos\bin\Debug\netcoreapp3.1\SistemaDeProdutos.deps.json
+D:\Escolar\SENAI\GitHub\Backend\SistemaDeProdutos\bin\Debug\netcoreapp3.1\SistemaDeProdutos.runtimeconfig.json
+D:\Escolar\SENAI\GitHub\Backend\SistemaDeProdutos\bin\Debug\netcoreapp3.1\SistemaDeProdutos.runtimeconfig.dev.json
+D:\Escolar\SENAI\GitHub\Backend\SistemaDeProdutos\bin\Debug\netcoreapp3.1\SistemaDeProdutos.dll
+D:\Escolar\SENAI\GitHub\Backend\SistemaDeProdutos\bin\Debug\netcoreapp3.1\SistemaDeProdutos.pdb
+D:\Escolar\SENAI\GitHub\Backend\SistemaDeProdutos\obj\Debug\netcoreapp3.1\SistemaDeProdutos.csprojAssemblyReference.cache
+D:\Escolar\SENAI\GitHub\Backend\SistemaDeProdutos\obj\Debug\netcoreapp3.1\SistemaDeProdutos.AssemblyInfoInputs.cache
+D:\Escolar\SENAI\GitHub\Backend\SistemaDeProdutos\obj\Debug\netcoreapp3.1\SistemaDeProdutos.AssemblyInfo.cs
+D:\Escolar\SENAI\GitHub\Backend\SistemaDeProdutos\obj\Debug\netcoreapp3.1\SistemaDeProdutos.csproj.CoreCompileInputs.cache
+D:\Escolar\SENAI\GitHub\Backend\SistemaDeProdutos\obj\Debug\netcoreapp3.1\SistemaDeProdutos.dll
+D:\Escolar\SENAI\GitHub\Backend\SistemaDeProdutos\obj\Debug\netcoreapp3.1\SistemaDeProdutos.pdb
+D:\Escolar\SENAI\GitHub\Backend\SistemaDeProdutos\obj\Debug\netcoreapp3.1\SistemaDeProdutos.genruntimeconfig.cache

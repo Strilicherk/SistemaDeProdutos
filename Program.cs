@@ -6,36 +6,18 @@ namespace Aula_27_11
     {
         static void Main(string[] args)
         {
-
-
-
-            //Declarar Variavel
-            // bool senhaValida;
             int escolha;
             int contador = 0;
             string resposta;
 
-            string[] nome = new string[3];
+            string[] produto = new string[3];
             float[] preco = new float[3];
             bool[] promocao = new bool[3];
-            string [] respostaPromocao = new string[3];
-
-            //Dados da passagem
 
             Console.Clear();
             Console.WriteLine("-----------------------------");
             Console.WriteLine("---- Sistema de Produtos ----");
             Console.WriteLine("-----------------------------");
-
-            //Login
-            // do
-            // {
-            //     Console.WriteLine("Digite a senha para acessar o sistema");
-            //     string senha = Console.ReadLine();
-            //     senhaValida = EfetuarLogin(senha);
-            // } while (!senhaValida);
-
-            //Menu
 
             do
             {
@@ -54,33 +36,25 @@ namespace Aula_27_11
                         Console.WriteLine("Cadastrar Produto");
                         do
                         {
-                                Console.Write($"Digite o nome do {contador + 1}º produto: ");
-                                Console.ForegroundColor = ConsoleColor.Green;
-                                nome[contador] = Console.ReadLine();
-                                Console.ResetColor();
+                            if(contador < 2 ){
+                            Console.WriteLine($"Digite o nome do {contador+1}º produto");
+                            produto[contador] = Console.ReadLine();
 
-                                Console.Write($"Digite o preco do {contador + 1}º produto: ");
-                                Console.ForegroundColor = ConsoleColor.Green;
-                                preco[contador] = float.Parse(Console.ReadLine());
-                                Console.ResetColor();
+                            Console.WriteLine($"Digite o preço do {contador+1} produto");
+                            preco [contador] = float.Parse(Console.ReadLine());
 
-                                Console.Write($"O produto {contador + 1}º está em promoção? ");
-                                Console.ForegroundColor = ConsoleColor.Green;
-                                string r = (Console.ReadLine());
-                                if (r == "Sim")
-                                {
-                                    return true;
-                                }
-                                else
-                                {
-                                   return false; 
-                                }
-                                Console.ResetColor();
+                            Console.WriteLine($"Este produto está na promoção? (true/false) ");
+                            promocao [contador] = bool.Parse(Console.ReadLine());
 
-                                contador++;
-                                Console.WriteLine("Você gostaria de cadastrar um novo produto? S/N");
-                                resposta = Console.ReadLine().ToUpper();
+                            contador++;
 
+                            }else
+                            {
+                                Console.WriteLine("O limite de produtos que você pode cadastrar foi excedido");
+                                break;
+                            }    
+                            Console.WriteLine("Gostaria de Cadastrar mais produtos ? S/N");
+                            resposta = Console.ReadLine().ToUpper();
                         } while (resposta == "S");
                         break;
                     case 2:
@@ -90,32 +64,19 @@ namespace Aula_27_11
                             Console.ForegroundColor = ConsoleColor.Green;
                             Console.WriteLine($"PASSAGEM {i + 1}");
                             Console.ResetColor();
-                            Console.Write($"Nome: {nome[contador]}\nPreco: {preco[contador]}\nProduto em promocao: {promocao[contador]}");
+                            Console.WriteLine($"Nome: {produto[i]}");
+                            Console.WriteLine($"Preco: {preco[i]}");
+                            Console.WriteLine($"Produto em promocao: {promocao[i]}\n");
 
                         }
                         break;
                     default:
+                        Console.WriteLine("Opção Inválida");
 
                         break;
                 }
 
             } while (escolha != 0);
-
-            //Função
-            // bool EfetuarLogin(string senha)
-            // {
-            //     if (senha == "123456")
-            //     {
-            //         Console.WriteLine("Senha Válida");
-            //         return true;
-            //     }
-            //     else
-            //     {
-            //         Console.WriteLine("Senha Inválida");
-            //         return false;
-            //     }
-
-            // }
         }
     }
 
